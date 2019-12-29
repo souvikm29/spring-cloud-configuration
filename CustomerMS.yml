@@ -1,0 +1,9 @@
+spring: 
+  application: 
+    name: CustomerMS
+  datasource: 
+    driverClassName: com.mysql.jdbc.Driver
+friend:
+  uri: http://localhost:8300/customers
+path:
+  uri: http://localhost:8400/path
