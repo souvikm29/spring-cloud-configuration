@@ -2,7 +2,7 @@ spring:
   application: 
     name: CustomerMS
   datasource: 
-    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost/infytel_customer
 friend:
   uri: http://localhost:8300/customers
 path:
