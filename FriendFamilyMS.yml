@@ -2,4 +2,4 @@ spring:
   application: 
     name: FriendFamilyMS
   datasource: 
-    url: jdbc:mysql://localhost/infytel_calldetails
+    url: jdbc:mysql://localhost/infytel_friend_family
