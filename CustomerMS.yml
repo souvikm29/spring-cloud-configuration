@@ -3,6 +3,9 @@ spring:
     name: CustomerMS
   datasource: 
     url: jdbc:mysql://localhost/infytel_customer
+management: 
+  security: 
+    enabled: false    
 friend:
   uri: http://localhost:8301/customers
 path:
