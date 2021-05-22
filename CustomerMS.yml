@@ -2,7 +2,7 @@ spring:
   application: 
     name: CustomerMS
   datasource: 
-    url: jdbc:mysql://localhost/infytel_customer
+    url: jdbc:mysql://localhost/infytel-customer
 management: 
   security: 
     enabled: false    
