@@ -2,7 +2,7 @@ spring:
   application: 
     name: FriendFamilyMS
   datasource: 
-    url: jdbc:mysql://localhost/infytel_friend_famil
+    url: jdbc:mysql://localhost/infytel-friend-family
 management: 
   security: 
     enabled: false        
