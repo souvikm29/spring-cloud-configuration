@@ -1,8 +1,8 @@
 spring: 
   application: 
     name: CallDetailsMS
-  #datasource: 
-    #url: jdbc:mysql://localhost/infytel-calldetails
+  datasource: 
+    url: jdbc:mysql://localhost/infytel-calldetails
 management: 
   security: 
     enabled: false       
