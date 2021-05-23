@@ -7,3 +7,7 @@ spring:
   properties:
     hibernate:
       dialect: org.hibernate.dialect.MySQL5Dialect
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:5555/eureka      
