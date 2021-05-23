@@ -7,9 +7,9 @@ hystrix:
   command:
     default:
       circuitBreaker:
-        requestVolumeThreshold: 10
-        errorThresholdPercentage: 50
-        sleepWindowInMilliseconds: 10000
+        requestVolumeThreshold: 10 # No. of minimum request to be sent for circuit breaker to kick in
+        errorThresholdPercentage: 50 # if this percentage of request fails then circuit breaker will kick in
+        sleepWindowInMilliseconds: 10000 # Once hystrix has open the circuit, it will wait for this much time before trying to close the circuit
       metrics:
         rollingStats:
-          timeInMilliseconds: 10000            
+          timeInMilliseconds: 10000 # Time frame within requestVolumeThreshold no. of request to be sent  for circuit breaker to kick in            
