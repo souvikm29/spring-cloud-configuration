@@ -5,6 +5,8 @@ spring:
     name: CallDetailsMS
   datasource: 
     url: jdbc:mysql://localhost/infytel-calldetails
-management: 
-  security: 
-    enabled: false       
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:5555/eureka
+    
