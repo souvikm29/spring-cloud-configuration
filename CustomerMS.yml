@@ -3,3 +3,15 @@ spring:
     name: CustomerMS
   datasource: 
     url: jdbc:mysql://localhost/infytel-customer
+hystrix:
+  command:
+    default:
+      circuitBreaker:
+        requestVolumeThreshold: 10
+      metrics:
+        rollingStats:
+          timeInMilliseconds: 10000
+      circuitBreaker:
+        errorThresholdPercentage: 50
+        sleepWindowInMilliseconds: 10000
+    
