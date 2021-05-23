@@ -3,3 +3,6 @@ spring:
     name: FriendFamilyMS
   datasource: 
     url: jdbc:mysql://localhost/infytel-friend-family
+eureka:
+  instance:
+    instance-id: ${spring.cloud.client.hostname}.${spring.application.name}.${spring.application.instance_id:${random.value}}
