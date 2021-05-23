@@ -8,9 +8,8 @@ hystrix:
     default:
       circuitBreaker:
         requestVolumeThreshold: 10
+        errorThresholdPercentage: 50
+        sleepWindowInMilliseconds: 10000
       metrics:
         rollingStats:
-          timeInMilliseconds: 10000
-      circuitBreaker:
-        errorThresholdPercentage: 50
-        sleepWindowInMilliseconds: 10000    
+          timeInMilliseconds: 10000            
