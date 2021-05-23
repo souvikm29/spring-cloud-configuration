@@ -3,9 +3,10 @@ spring:
     name: CustomerMS
   datasource: 
     url: jdbc:mysql://localhost/infytel-customer
-management: 
-  security: 
-    enabled: false    
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:5555/eureka    
 friend:
   uri: http://localhost:8301/customers
 path:
