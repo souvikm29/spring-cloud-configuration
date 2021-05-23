@@ -13,5 +13,4 @@ hystrix:
           timeInMilliseconds: 10000
       circuitBreaker:
         errorThresholdPercentage: 50
-        sleepWindowInMilliseconds: 10000
-    
+        sleepWindowInMilliseconds: 10000    
